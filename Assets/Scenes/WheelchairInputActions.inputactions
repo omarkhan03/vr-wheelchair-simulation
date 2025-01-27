@@ -1,0 +1,162 @@
+{
+    "name": "WheelchairInputActions",
+    "maps": [
+        {
+            "name": "WheelchairControls",
+            "id": "23ca4b2b-e3d7-41bc-aa62-92807bbe23d4",
+            "actions": [
+                {
+                    "name": "LeftWheelForward",
+                    "type": "Button",
+                    "id": "dcdeb56d-b825-454b-9d74-1f4fe0c43299",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightWheelForward",
+                    "type": "Button",
+                    "id": "7184e4db-facb-46c6-88a6-458bc7f5dc43",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightWheelBackward",
+                    "type": "Button",
+                    "id": "71acc886-e028-4b09-ad9c-b95da1634a59",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftWheelBackward",
+                    "type": "Button",
+                    "id": "72743f08-d8f8-4dde-af49-2266dda5671c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightGrip",
+                    "type": "Button",
+                    "id": "d30a972a-f91b-4354-b3f2-e504a7315cda",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cc7795be-d760-4212-972e-012a4ded0cca",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftWheelForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "83c07c7e-c8a0-4731-9ff9-fac4917a05a0",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightWheelForward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9eb1bba0-0ef1-4ff2-b6d9-2cae7c1e9983",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightWheelBackward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3658e9f1-c3cc-4954-aaf6-00b4f8419e6d",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftWheelBackward",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8ccf7064-368b-4c6e-bfb8-b52243fb6830",
+                    "path": "<OculusTouchController>/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightGrip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "VR",
+            "id": "c6151c5c-45ab-4a3d-8e74-53ada4d48883",
+            "actions": [
+                {
+                    "name": "RightGrip",
+                    "type": "Button",
+                    "id": "23c0a4f9-903e-414b-938c-3f033aafaa89",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LeftGrip",
+                    "type": "Button",
+                    "id": "f0b03edb-16c1-4247-9994-e3024119b08c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b1fedf4f-4692-4f54-990d-916099a1e967",
+                    "path": "<XRController>{RightHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightGrip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5d607909-be26-4e18-a07e-dcbaa7e0196c",
+                    "path": "<XRController>{LeftHand}/{GripButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftGrip",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
